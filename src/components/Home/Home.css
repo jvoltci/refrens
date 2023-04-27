@@ -1,0 +1,20 @@
+.card-container{
+    margin: 60px 40px 40px 40px;
+    background: teal;
+}
+.card-container:hover {
+    background-color: rgb(1, 91, 91);
+}
+
+@media screen and (max-width: 400px) {
+    .card-container{
+        margin: 40px 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .card-container{
+        margin: 40px 0 10px 7px;
+        width: 95%;
+    }
+}
